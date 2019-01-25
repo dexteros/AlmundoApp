@@ -1,6 +1,8 @@
 import { StyleSheet } from 'react-native';
 import { COLOR } from './config/colors';
 
+
+
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -8,18 +10,33 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: COLOR.PRIMARY,
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-    color:COLOR.TEXT_PRIMARY
+
+
+  itembox_container:{
+    flex: 1,
+    backgroundColor: 'steelblue',
+    width: 200,
+    height: 200,
+    //flexDirection: 'column',
+    //justifyContent: 'center',
+    //alignItems: 'stretch',
   },
+
+  bigblue: {
+      color: 'blue',
+      fontWeight: 'bold',
+      fontSize: 30,
+    },
+    red: {
+      color: 'red',
+    },
+
   instructions: {
     textAlign: 'center',
     color: COLOR.TEXT_PRIMARY,
     marginBottom: 5,
   },
   contentContainer: {
-    paddingVertical: 20
-  }
+    paddingVertical: 10,
+  },
 });

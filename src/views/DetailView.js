@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Button } from "react-native";
 import Slideshow from 'react-native-image-slider-show';
-
+import {styles} from '@styles/styles';
 
 
 export default class DetailView extends Component {

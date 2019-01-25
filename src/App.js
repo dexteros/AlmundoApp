@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator, createAppContainer } from "react-navigation";
-import MainView from './views/MainView';
-import DetailView from './views/DetailView';
+import MainView from '@views/MainView';
+import DetailView from '@views/DetailView';
 
 
 //Enrutador
