@@ -8,6 +8,10 @@ import {getHotels} from '@service/Service';
 
 export default class MainView extends Component {
 
+  static navigationOptions = {
+    title: 'Almundo',
+  };
+
   state = {
         isLoading:true,
         hotels:[]

@@ -7,7 +7,9 @@ import DetailView from '@views/DetailView';
 //Enrutador
 const AppNavigator = createStackNavigator(
     {
-      Home: MainView,
+      Home: {
+        screen: MainView
+      },
       Details:{
         screen: DetailView,
         navigationOptions: ({ navigation }) => ({
