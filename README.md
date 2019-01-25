@@ -14,7 +14,7 @@ npm install
 react-native link
 ```
 ##Vista Previa
-![image](https://cloud.githubusercontent.com/screenshot/almundo.jpg)
+![image](https://github.com/dexteros/AlmundoApp/blob/master/screenshot/almundo.jpg)
 
 ## Requisitos
 
